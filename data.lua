@@ -1,0 +1,5 @@
+require("prototypes.item.chunked-roboport")
+require("prototypes.item.chunked-big-electric-pole")
+require("prototypes.entity.chunked-roboport")
+require("prototypes.entity.chunked-big-electric-pole")
+require("prototypes.technologies")
