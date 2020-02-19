@@ -7,6 +7,7 @@ chunkedPort.max_health = 750;
 chunkedPort.energy_usage = "66kW"
 chunkedPort.logistics_radius = 33
 chunkedPort.construction_radius = 67
+chunkedPort.minable = {mining_time = 0.1, result = "chunked-roboport"}
 
 local recipe = table.deepcopy(data.raw.recipe["roboport"])
 recipe.enabled = false
@@ -24,6 +25,7 @@ chunkedPort2.max_health = 750;
 chunkedPort2.energy_usage = "129kW"
 chunkedPort2.logistics_radius = 65
 chunkedPort2.construction_radius = 134
+chunkedPort2.minable = {mining_time = 0.1, result = "chunked-roboport-2"}
 
 local recipe2 = table.deepcopy(data.raw.recipe["roboport"])
 recipe2.enabled = false
